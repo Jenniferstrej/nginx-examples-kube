@@ -7,7 +7,13 @@ Docker image with hardcoded .htpasswd file to be used as test locally only. ngin
 
 # Ways to start it with Kubernetes
 
+First create a namespace for you to work on:
 
+`kubectl create namespace class`
+
+Then create a deployment from the deployment manifest file `jen-nginx-deploy.yaml`:
+
+`kubectl -n class apply -f jen-nginx-deploy.yaml`
 
 
 

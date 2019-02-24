@@ -1,0 +1,24 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    run: jen-nginx
+  name: jen-nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: jen-nginx
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: jen-nginx
+    spec:
+      containers:
+      - image: jen-nginx:1.0
+        name: jen-nginx
+        resources: {}
+status: {}
