@@ -7,6 +7,11 @@ Docker image with hardcoded .htpasswd file to be used as test locally only. ngin
 
 # Ways to start it with Kubernetes
 
+
+
+
+
+# Shortcut (to be deprecated)
 Create deployment:
 
 `kubectl run kubectl run jen-nginx --image=jen-nginx:1.0`
