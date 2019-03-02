@@ -10,25 +10,25 @@ _If you have problems installing Minikube locally, you can use the Katakoda term
 * [Git](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)
 
 ### Workshop Contents
-1. Kubernetes Architecture
-2. Namespaces
-3. Pods
-4. ReplicaSets
-5. Deployments
+1. [Kubernetes Architecture](./README.md#kubernetes-architecture)
+2. [Namespaces](./README.md#namespaces)
+3. [Pods](./README.md#pods)
+4. [ReplicaSets](./README.md#replicasets)
+5. [Deployments](./README.md#deployments)
    - Create
    - Describe
    - Rolling Update Strategies
-6. Services
-7. Port forward
-8. Editing Deployments
+6. [Services](./README.md#services)
+7. [Port forward](./README.md#port-forward)
+8. [Editing Deployments](./README.md#editing-deployments)
    - Edit
    - Rollout
    - Scale Deployment up and Down
 
 ### Bonus
 
-8. ConfigMaps
-9. Secrets
+8. [ConfigMaps](./README.md#configmaps)
+9. [Secrets](./README.md#secrets)
 
 
 ## Doing the workshop
