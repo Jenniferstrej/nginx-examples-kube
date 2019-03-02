@@ -17,7 +17,7 @@ _If you have problems installing Minikube locally, you can use the Katakoda term
 5. Deployments
    - Create
    - Describe
-   - Rolling Update Strategy
+   - Rolling Update Strategies
 6. Services
 7. Port forward
 8. Editing Deployments
@@ -72,7 +72,8 @@ Create a deployment of the image jenniferstrej/jen-nginx:1.1 with 3 replicas
 
 (Answer: Create this file locally https://github.com/Jenniferstrej/nginx-examples-kube/blob/1.1/jen-nginx-deploy.yaml and run `kubectl -n class apply -f jen-nginx-rs.yaml`)
 
-_Rolling Update Strategies_
+__Rolling Update Strategies__
+
 Run `kubectl describe deployment jen-nginx`
 
 Default rolling update strategy is "RollingUpdateStrategy:  25% max unavailable, 25% max surge". What does it mean?
@@ -128,7 +129,8 @@ Reload the app on the browser (if you stopped port forwarding run the command ag
 
 You should see a background color change on the page.
 
-_Rolling back a deployment_
+
+__Rolling back a deployment__
 
 Run `kubectl rollout history deployment/jen-nginx`
 
@@ -146,15 +148,15 @@ Check the status: `kubectl rollout status deployment/jen-nginx`
 
 Reload your web page. It should display the page with a white background again.
 
-_Scale Deployment_
+__Scale Deployment__
 
 Depending on the needs of your app (e.g. redundancy, resource needs, etc.) you may want to scale it down or up. Currently our deployment is running 3 pods. Let's reduce the number to 2 pods.
 
 Exercise: Scale deployment jen-nginx to 2 pods.
 
 (Answer: 
-1 - `kubectl -n class scale deployment jen-nginx --replicas=2`
-2 - Edit `jen-nginx-deploy.yaml` file and set the field `replicas` to 2, save and run `kubectl apply -f jen-nginx-deploy.yaml`)
+1. `kubectl -n class scale deployment jen-nginx --replicas=2`
+2. Edit `jen-nginx-deploy.yaml` file and set the field `replicas` to 2, save and run `kubectl apply -f jen-nginx-deploy.yaml`)
 
 ## ConfigMaps
 
