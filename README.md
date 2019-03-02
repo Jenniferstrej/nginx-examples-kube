@@ -5,7 +5,7 @@
 * Familiarity with a Container runtime (e.g. Docker)
 
 * [Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) - Minikube has its own pre-requisites. Please check page.
-_If you have problems installing Minikube locally, you can use the Katakoda terminal provided on https://kubernetes.io/docs/tutorials/hello-minikube/#create-a-minikube-cluster however you may have problems running the port forward command later_
+_If you have problems installing Minikube locally, you can use the Katakoda terminal provided on https://kubernetes.io/docs/tutorials/hello-minikube/#create-a-minikube-cluster however you may have problems running the port forward command later._
 
 * [Git](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)
 
