@@ -1,7 +1,6 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     run: jen-nginx
   name: jen-nginx
@@ -10,7 +9,6 @@ spec:
   selector:
     matchLabels:
       run: jen-nginx
-  strategy: {}
   template:
     metadata:
       creationTimestamp: null
@@ -20,5 +18,3 @@ spec:
       containers:
       - image: jenniferstrej/jen-nginx:1.2
         name: jen-nginx
-        resources: {}
-status: {}
