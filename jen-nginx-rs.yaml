@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: ReplicaSet
+metadata:
+  labels:
+    run: jen-nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: jen-nginx
+  template:
+    metadata:
+      labels:
+        run: jen-nginx
+    spec:
+      containers:
+      - image: jenniferstrej/jen-nginx:1.1
+        name: jen-nginx
