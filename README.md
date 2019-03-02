@@ -107,7 +107,9 @@ Now that we have some user level visibility of our deployed application, let's d
 
 Edit jen-nginx deployment with the image `jenniferstrej/jen-nginx:1.2`
 
-(Answer: edit the `jen-nginx-deploy.yaml` and update the field image with the new version, then run `kubectl -n class apply -f jen-nginx-deploy.yaml` OR (imperative) `kubectl -n class edit deployment jen-nginx` and interactivelly edit the field image then save the file)
+(Answers (2 options): 
+1. Edit the `jen-nginx-deploy.yaml` and update the field image with the new version, then run `kubectl -n class apply -f jen-nginx-deploy.yaml`. File should look like https://github.com/Jenniferstrej/nginx-examples-kube/blob/1.2/jen-nginx-deploy.yaml 
+2. (imperative) `kubectl -n class edit deployment jen-nginx` and interactivelly edit the field image then save the file)
 
 Run `kubectl rollout status deployment/jen-nginx`
 
@@ -154,7 +156,7 @@ Depending on the needs of your app (e.g. redundancy, resource needs, etc.) you m
 
 Exercise: Scale deployment jen-nginx to 2 pods.
 
-(Answer: 
+(Answers (2 options): 
 1. `kubectl -n class scale deployment jen-nginx --replicas=2`
 2. Edit `jen-nginx-deploy.yaml` file and set the field `replicas` to 2, save and run `kubectl apply -f jen-nginx-deploy.yaml`)
 
