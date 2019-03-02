@@ -27,8 +27,8 @@ _If you have problems installing Minikube locally, you can use the Katakoda term
 
 ### Bonus
 
-8. [ConfigMaps](./README.md#configmaps)
-9. [Secrets](./README.md#secrets)
+9. [ConfigMaps](./README.md#configmaps)
+10. [Secrets](./README.md#secrets)
 
 
 ## Doing the workshop
