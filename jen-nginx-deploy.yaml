@@ -18,7 +18,7 @@ spec:
         run: jen-nginx
     spec:
       containers:
-      - image: jenniferstrej/jen-nginx:1.1
+      - image: jenniferstrej/jen-nginx:1.2
         name: jen-nginx
         resources: {}
 status: {}
