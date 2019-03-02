@@ -42,7 +42,10 @@ Kubernetes docs https://kubernetes.io
 
 ## Namespaces
 
-Create a namespace e.g. `kubectl create namespace class`
+Create a namespace called `class` 
+
+(Answer: Run `kubectl create namespace class`)
+
 
 ## Pods
 
