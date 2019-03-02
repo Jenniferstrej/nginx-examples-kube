@@ -34,7 +34,10 @@ _If you have problems installing Minikube locally, you can use the Katakoda term
 ## Doing the workshop
 
 Clone this repository with `git clone https://github.com/Jenniferstrej/nginx-examples-kube.git`
-Kubernetes docs https://kubernetes.io 
+
+## Documentation
+
+Kubernetes reference docs are excellent and will often provide all the information you need: https://kubernetes.io 
 
 ## Kubernetes Architecture
 
