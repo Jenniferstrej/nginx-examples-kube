@@ -3,6 +3,7 @@ kind: ReplicaSet
 metadata:
   labels:
     run: jen-nginx
+  name: jen-nginx
 spec:
   replicas: 1
   selector:
