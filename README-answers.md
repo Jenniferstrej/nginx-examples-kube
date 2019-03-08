@@ -41,7 +41,7 @@ Kubernetes reference docs are excellent and will often provide all the informati
 
 ## Kubernetes Architecture
 
-[TODO]
+https://slides.com/jenniferstrejevitch/kubernetes-architecture/live
 
 ## Namespaces
 
