@@ -58,7 +58,7 @@ Create a pod manifest with the image `jenniferstrej/jen-nginx:1.1`
 
 Create the pod on your Minikube cluster under the `class` namespace
 
-(Answer: `kubectl apply -f jen-nginx-pod.yaml`)
+(Answer: `kubectl apply -f jen-nginx-pod.yaml -n class`)
 
 ## ReplicaSets
 
